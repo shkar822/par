@@ -62,7 +62,7 @@ client.on("message", SHVAN => {
 // ======== { • REKLAM • }======== //
 
 client.on("ready", () => {
-  var join = client.channels.get(""); /// ئاید ڤۆیس
+  var join = client.channels.get("871471063278714890"); /// ئاید ڤۆیس
   if (join) join.join();
 });
 
@@ -70,9 +70,9 @@ client.on("message", shvan => {
   if (shvan.channel.type === "dm") {
     if (shvan.content.startsWith("https://discord.gg/")) {
       shvan.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
-https://discord.gg/9DBUNV7`); /// لینکە سیرڤەرە خۆت
+https://discord.gg/ptuxedFz4a `); /// لینکە سیرڤەرە خۆت
 
-      client.channels.get("").send(////ئایدی ژوری تێکست
+      client.channels.get("871469442285056030").send(////ئایدی ژوری تێکست
  
         `> Nerdra la layan <@${shvan.author.id}> 
 ${shvan.content}`
@@ -83,5 +83,5 @@ ${shvan.content}`
 
 // ======== { • TOKENN • }======== //
 
-client.login("لێرە تۆکین دانە");
+client.login("ODcyMDE3NjI1NDgyNDIwMjQ0.YQjvsw.4yQcrBu9pG-0od9gKVZCrND29gc");
 ////////////////
